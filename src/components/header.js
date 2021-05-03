@@ -46,13 +46,13 @@ const Header = ({ siteTitle }) => (
         <div className="m-0">
           <strong>My Cart</strong> 
         </div>
-        <div className="px-2">
-          <span class="px-2">| </span>Items in cart :
-          <span className="snipcart-total-items font-weight-bold badge badge-light badge-pill ml-2"></span>
+        <div className="px-1">
+          <span class="px-1">|</span>Items in cart:
+          <span className="snipcart-total-items font-weight-bold badge badge-light badge-pill ml-1"></span>
         </div>
-        <div className="px-2">
-          <span class="px-2">| </span> Total Price :
-          <span className="snipcart-total-price font-weight-bold badge badge-light badge-pill ml-2"></span>
+        <div className="px-1">
+          <span class="px-1">|</span> Total Price:
+          <span className="snipcart-total-price font-weight-bold badge badge-light badge-pill ml-1"></span>
         </div>
       </div>
 
