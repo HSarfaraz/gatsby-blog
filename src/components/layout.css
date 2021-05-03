@@ -748,13 +748,34 @@ a:hover {
   .active:hover,
   .navlink:hover,
   .navlink {
-    padding: 1px !important;
+    padding: 4px !important;
+    margin: 4px;
   }
   .logo {
-    width: 17px !important;
+    width: 25px !important;
   }
   header,
   h4 {
-    font-size: 8px !important;
+    font-size: 12px !important;
   }
+}
+
+/* Netlify Identity */
+
+.netlify-identity-menu,
+.netlify-identity-signup,
+.netlify-identity-login,
+.netlify-identity-logout {
+  color: white;
+}
+
+.netlify-identity-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+li.netlify-identity-item {
+  padding-left: 10px;
+  padding-top: 10px;
 }
