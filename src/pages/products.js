@@ -48,7 +48,7 @@ export const query = graphql`
         price
         image {
           fluid(maxWidth: 800){
-            ...GatsbyContentfulFixed 
+            ...GatsbyContentfulFluid
           }
         }
       }
@@ -56,5 +56,5 @@ export const query = graphql`
   }
 }
 `
-// i need to change GatsbyContentfulFixed from GatsbyContentfulFluid_tracedSVG
+// i need to change GatsbyContentfulFluid from GatsbyContentfulFluid_tracedSVG
 export default Products;
