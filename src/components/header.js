@@ -36,7 +36,7 @@ class Header extends React.Component {
           maxWidth: 1060,
           padding: `0.8rem 1.0875rem`,
         }}>
-        <div className="col-sm-6 col-md-7" style={{ display: 'flex', alignItems: 'center'}}>
+        <div className="col-sm-6 col-md-8" style={{ display: 'flex', alignItems: 'center'}}>
 
             <img src={blogLogo} alt="blog logo" className="logo m-2" />
             <h5 className="m-0 text-white">
@@ -54,7 +54,7 @@ class Header extends React.Component {
         </div>
         
         {/* Add the content of Shopping cart summary in header */}
-        <div className="col-sm-12 col-md-5">
+        <div className="col-sm-12 col-md-4">
          
           <div style={{cursor: 'pointer', display: 'flex'}} className="mt-1 pt-1 snipcart-summary snipcart-checkout text-white">
             <strong>My Cart</strong> 
